@@ -1,4 +1,10 @@
 import React from "react";
+import MyStory from "./MyStory";
+import Developer from "./Developer";
+import Nurse from "./Nurse";
+import Gamer from "./Gamer";
+import Friend from "./Friend";
+import "./About.css";
 
 const About = () => {
   const [toggleMe, setToggleMe] = React.useState(true);
@@ -8,7 +14,7 @@ const About = () => {
   const [toggleFriend, setToggleFriend] = React.useState(false);
 
   return (
-    <section id="about">
+    <section id="about" className="about-section">
       <h2>Me</h2>
       <button
         onClick={() => {
@@ -65,11 +71,11 @@ const About = () => {
       >
         I'm a friend
       </button>
-      {toggleMe ? "My story" : null}
-      {toggleDev ? "My Developer Story" : null}
-      {toggleNurse ? "My Nurse Story" : null}
-      {toggleGamer ? "My Gamer Story" : null}
-      {toggleFriend ? "My Friend Story" : null}
+      {toggleMe ? <MyStory /> : null}
+      {toggleDev ? <Developer /> : null}
+      {toggleNurse ? <Nurse /> : null}
+      {toggleGamer ? <Gamer /> : null}
+      {toggleFriend ? <Friend /> : null}
     </section>
   );
 };
