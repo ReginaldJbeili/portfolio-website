@@ -1,11 +1,20 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import "./Landing.css";
+import Nav from "./Nav";
 
 const Landing = () => {
   return (
-    <section>
-      <h1 id="#home">Reginald Jbeili</h1>
-      <ReactPlayer url="https://i.imgur.com/P6IDx1r.mp4" playing />
+    <section className="landing-page">
+      <Nav />
+      <ReactPlayer
+        className="landing-video"
+        url="https://i.imgur.com/qXDSekV.mp4"
+        playing
+        loop
+        width="100%"
+        height="100%"
+      />
     </section>
   );
 };

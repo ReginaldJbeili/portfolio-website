@@ -1,0 +1,19 @@
+.nav-bar {
+  display: flex;
+  position: absolute;
+  bottom: 50%;
+  left: 30%;
+  flex-flow: column nowrap;
+  z-index: 1;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: white;
+}

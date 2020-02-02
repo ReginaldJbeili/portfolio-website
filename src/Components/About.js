@@ -8,7 +8,7 @@ const About = () => {
   const [toggleFriend, setToggleFriend] = React.useState(false);
 
   return (
-    <section>
+    <section id="about">
       <h2>Me</h2>
       <button
         onClick={() => {

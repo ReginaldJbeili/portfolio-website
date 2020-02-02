@@ -1,0 +1,9 @@
+.landing-page {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.landing-video > video {
+  object-fit: cover;
+}
