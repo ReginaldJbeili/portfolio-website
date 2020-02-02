@@ -7,47 +7,42 @@ const Slideshow = () => {
   const [imageCount, setImageCount] = React.useState(0);
   const image = imageArray[imageCount];
   const [togglePlay, setTogglePlay] = React.useState(false);
+
   console.log(togglePlay);
+  console.log(imageCount);
   React.useEffect(() => {
     let imageSlide = null;
-    if (togglePlay === false) {
+    if (togglePlay === true) {
+      console.log("Hello");
       imageSlide = setInterval(() => {
         setImageCount(imageCount =>
           imageCount < imageArray.length - 1 ? imageCount + 1 : 0
         );
-        console.log(imageCount);
       }, 1000);
-    } else if (togglePlay === true) {
-      return clearInterval(imageSlide);
+    } else if (togglePlay === false) {
+      console.log("hello");
+      clearInterval(imageSlide);
     }
-  }, []);
+  }, [togglePlay, imageArray.length]);
   return (
     <div>
       <h1>slideshow test</h1>
       <button
-        onClick={() => setImageCount(imageCount < 2 ? imageCount + 1 : 0)}
+        onClick={() =>
+          setImageCount(imageCount < imageArray.length - 1 ? imageCount + 1 : 0)
+        }
       >
         Next
       </button>
       <button
-        onClick={() => setImageCount(imageCount > 0 ? imageCount - 1 : 2)}
+        onClick={() =>
+          setImageCount(imageCount > 0 ? imageCount - 1 : imageArray.length - 1)
+        }
       >
         Previous
       </button>
-      <button onClick={() => setTogglePlay(!togglePlay)}>Pause</button>
+      <button onClick={() => setTogglePlay(!togglePlay)}>Play/Pause</button>
       <img src={image} alt="" />
-      <button
-        onClick={() =>
-          setInterval(() => {
-            setImageCount(imageCount =>
-              imageCount < imageArray.length - 1 ? imageCount + 1 : 0
-            );
-            console.log(imageCount);
-          }, 1000)
-        }
-      >
-        Play
-      </button>
     </div>
   );
 };
