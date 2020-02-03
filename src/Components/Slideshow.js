@@ -7,20 +7,18 @@ const Slideshow = () => {
   const [imageCount, setImageCount] = React.useState(0);
   const image = imageArray[imageCount];
   const [togglePlay, setTogglePlay] = React.useState(false);
-
   console.log(togglePlay);
-  console.log(imageCount);
+
   React.useEffect(() => {
-    let imageSlide = null;
-    if (togglePlay === true) {
-      console.log("Hello");
+    let imageSlide;
+    if (togglePlay) {
       imageSlide = setInterval(() => {
         setImageCount(imageCount =>
           imageCount < imageArray.length - 1 ? imageCount + 1 : 0
         );
       }, 1000);
-    } else if (togglePlay === false) {
-      console.log("hello");
+      return () => clearInterval(imageSlide);
+    } else {
       clearInterval(imageSlide);
     }
   }, [togglePlay, imageArray.length]);
