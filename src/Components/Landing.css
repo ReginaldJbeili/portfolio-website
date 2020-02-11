@@ -2,8 +2,7 @@
   height: 100vh;
   width: 100vw;
   max-width: 100%;
-}
-
-.landing-video > video {
-  object-fit: cover;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZBp8wppyn4adbT9yrRHvD2p_ETKW_FikElCWpdxJs1mDtXvTm);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

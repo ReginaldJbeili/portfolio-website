@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer id="contact">
+    <footer>
       <a
         href="https://github.com/ReginaldJbeili"
         target="_blank"

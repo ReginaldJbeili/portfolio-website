@@ -1,0 +1,10 @@
+.contact-section {
+  padding-top: 2rem;
+  height: 95vh;
+  width: 100vw;
+  max-width: 100%;
+}
+.contact-form {
+  display: flex;
+  flex-flow: column;
+}

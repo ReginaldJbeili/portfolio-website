@@ -3,8 +3,8 @@ import "./Nav.css";
 
 const Nav = () => {
   return (
-    <section className="nav-bar">
-      <h2>Reginald Jbeili</h2>
+    <section className="nav-bar-section">
+      <p>Reginald Jbeili</p>
       <a className="landing-a" href="#home">
         Home
       </a>

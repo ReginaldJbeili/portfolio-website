@@ -1,0 +1,14 @@
+.slideshow {
+  display: flex;
+  flex-flow: column;
+}
+
+.button-container {
+  display: flex;
+  flex-flow: row;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
