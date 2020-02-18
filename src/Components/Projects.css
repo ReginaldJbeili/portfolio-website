@@ -4,3 +4,8 @@
   width: 100vw;
   max-width: 100%;
 }
+
+.project-button-container {
+  display: flex;
+  justify-content: center;
+}

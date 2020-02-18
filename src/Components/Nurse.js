@@ -4,7 +4,18 @@ import "./Nurse.css";
 const Nurse = () => {
   return (
     <article className="nurse-story">
-      <h1>nurse test</h1>
+      <div className="nurse-container">
+        <ul>
+          As an operating theatre nurse/team leader for 7 years I've learnt:
+          <li>emotional intelligence</li>
+          <li>compassion</li>
+          <li>professionalism</li>
+          <li>collaboration</li>
+          <li>presence of mind</li>
+          <li>prioritisation capacity</li>
+          <li>organisational prowess</li>
+        </ul>
+      </div>
     </article>
   );
 };

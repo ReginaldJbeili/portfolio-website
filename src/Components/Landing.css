@@ -2,7 +2,8 @@
   height: 100vh;
   width: 100vw;
   max-width: 100%;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZBp8wppyn4adbT9yrRHvD2p_ETKW_FikElCWpdxJs1mDtXvTm);
+  background-image: url(../assets/images/DSC01633.JPG);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: right;
 }

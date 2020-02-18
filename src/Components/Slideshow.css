@@ -1,6 +1,7 @@
 .slideshow {
   display: flex;
   flex-flow: column;
+  align-items: center;
 }
 
 .button-container {

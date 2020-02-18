@@ -1,5 +1,4 @@
 import React from "react";
-import ReactPlayer from "react-player";
 import "./Landing.css";
 
 const Landing = () => {

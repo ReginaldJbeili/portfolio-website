@@ -1,6 +1,18 @@
 .nurse-story {
-  height: 80%;
+  height: 75vh;
+  width: 100vw;
+  max-width: 100%;
+  padding-top: 2rem;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  grid-template-columns: repeat(2, 1fr);
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(https://c8.alamy.com/comp/HRNFCN/handsome-young-male-nurse-isolated-on-white-full-length-HRNFCN.jpg);
+  background-position: center;
+  background-image: url(../assets/images/DSC01722.JPG);
+}
+
+.nurse-container {
+  background-color: white;
 }
