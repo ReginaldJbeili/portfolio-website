@@ -6,14 +6,13 @@ import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
 import Nav from "./Components/Nav";
 import Contact from "./Components/Contact";
-
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 // import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
-    // <BrowserRouter>
-    <>
+    <BrowserRouter>
       <main>
         <Landing />
         <Nav />
@@ -22,8 +21,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
-    </>
-    // </BrowserRouter>
+    </BrowserRouter>
   );
 };
 

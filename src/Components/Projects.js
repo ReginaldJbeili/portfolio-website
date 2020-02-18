@@ -2,7 +2,8 @@ import React from "react";
 import "./Projects.css";
 import Grid from "./Grid";
 import Slideshow from "./Slideshow";
-// import { Route, Switch } from "react-router-dom";
+import { Link, Route, Switch } from "react-router-dom";
+import SingleProject from "./SingleProject";
 
 const Projects = () => {
   const [toggleSlideshow, setToggleSlideshow] = React.useState(true);
@@ -12,25 +13,33 @@ const Projects = () => {
       <h2>Projects</h2>
 
       <div className="project-button-container">
-        <button
-          onClick={() => {
-            setToggleSlideshow(true);
-            setToggleGrid(false);
-          }}
-        >
-          Slideshow
-        </button>
-        <button
-          onClick={() => {
-            setToggleSlideshow(false);
-            setToggleGrid(true);
-          }}
-        >
-          Grid
-        </button>
+        <Link to="/">
+          <button
+            onClick={() => {
+              setToggleSlideshow(true);
+              setToggleGrid(false);
+            }}
+          >
+            Slideshow
+          </button>
+        </Link>
+
+        <Link to="/">
+          <button
+            onClick={() => {
+              setToggleSlideshow(false);
+              setToggleGrid(true);
+            }}
+          >
+            Grid
+          </button>
+        </Link>
       </div>
-      {toggleSlideshow ? <Slideshow /> : null}
-      {toggleGrid ? <Grid /> : null}
+      <Switch>
+        <Route path="/singleproject" component={SingleProject} />
+        {toggleSlideshow ? <Route path="/" component={Slideshow} /> : null}
+        {toggleGrid ? <Route path="/" component={Grid} /> : null}
+      </Switch>
     </section>
   );
 };

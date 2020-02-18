@@ -3,6 +3,7 @@
   height: 95vh;
   width: 100vw;
   max-width: 100%;
+  overflow-y: scroll;
 }
 
 .project-button-container {
