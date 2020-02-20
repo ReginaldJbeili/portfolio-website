@@ -1,0 +1,32 @@
+.slideshow {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  flex-flow: row;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+.slideshow-button {
+  background-color: black;
+}
+
+.slideshow-button img {
+  height: 50px;
+  width: 50px;
+}
+
+.slideshow-button:hover {
+  background-color: gray;
+}
+
+.slideshow {
+  margin-top: 2rem;
+}
