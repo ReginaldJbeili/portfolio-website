@@ -16,3 +16,13 @@
 .nurse-container {
   background-color: white;
 }
+
+.box-container li {
+  font-size: 1rem;
+  color: white;
+}
+
+.box-container ul {
+  color: white;
+  font-size: 1rem;
+}

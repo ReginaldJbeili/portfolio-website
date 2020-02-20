@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <section id="about" className="about-section">
-      <h2>Me</h2>
+      <h2>About Me</h2>
       <div className="about-button-container">
         <button
           className="button-style"

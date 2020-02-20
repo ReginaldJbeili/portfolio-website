@@ -1,12 +1,22 @@
-.projects-section {
+.projects-slideshow-section {
   padding-top: 2rem;
   height: 95vh;
   width: 100vw;
   max-width: 100%;
-  overflow-y: scroll;
 }
 
 .project-button-container {
   display: flex;
   justify-content: center;
+}
+
+p {
+  color: white;
+}
+
+.projects-grid-section {
+  padding-top: 2rem;
+  height: 195vh;
+  width: 100vw;
+  max-width: 100%;
 }

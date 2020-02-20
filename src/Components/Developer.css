@@ -12,24 +12,18 @@
   background-image: url(../assets/images/DSC01804.JPG);
 }
 
-.front-end-container {
-  background-color: white;
-}
-.back-end-container {
-  background-color: white;
-}
-
-.tests-container {
-  background-color: white;
-}
-.tools-container {
-  background-color: white;
+.box-container {
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  padding: 0 2rem 0 2rem;
+  border-radius: 7px;
 }
 
-.utilities-container {
-  background-color: white;
+.box-container p {
+  font-size: 0.8rem;
 }
 
-.methods-container {
-  background-color: white;
+.box-container h3 {
+  color: white;
 }
