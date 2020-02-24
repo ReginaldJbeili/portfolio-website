@@ -1,5 +1,5 @@
 .contact-section {
-  padding-top: 2rem;
+  padding-top: 3rem;
   height: 90vh;
   width: 100vw;
   max-width: 100%;
@@ -28,6 +28,11 @@
   border-radius: 30px;
 }
 
+.contact-section p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media only screen and (max-width: 768px) {
   .contact-section img {
     height: 100px;

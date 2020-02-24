@@ -249,6 +249,7 @@ const Developer = () => {
           {frontEnd.map(element => {
             return (
               <img
+                key={element.title}
                 src={element.image}
                 alt={element.alt}
                 title={element.title}
@@ -264,6 +265,7 @@ const Developer = () => {
           {tools.map(element => {
             return (
               <img
+                key={element.title}
                 src={element.image}
                 alt={element.alt}
                 title={element.title}
@@ -279,6 +281,7 @@ const Developer = () => {
           {backEnd.map(element => {
             return (
               <img
+                key={element.title}
                 src={element.image}
                 alt={element.alt}
                 title={element.title}
@@ -294,6 +297,7 @@ const Developer = () => {
           {methodologies.map(element => {
             return (
               <img
+                key={element.title}
                 src={element.image}
                 alt={element.alt}
                 title={element.title}
@@ -309,6 +313,7 @@ const Developer = () => {
           {test.map(element => {
             return (
               <img
+                key={element.title}
                 src={element.image}
                 alt={element.alt}
                 title={element.title}
@@ -324,6 +329,7 @@ const Developer = () => {
           {utilities.map(element => {
             return (
               <img
+                key={element.title}
                 src={element.image}
                 alt={element.alt}
                 title={element.title}

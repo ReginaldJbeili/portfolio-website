@@ -5,6 +5,7 @@ import linkedInIcon from "../../assets/icons/jam_linkedin-square.svg";
 import twitterIcon from "../../assets/icons/jam_twitter-square.svg";
 import H1 from "../Styles/H1.style";
 import H2 from "../Styles/H2.style";
+import P from "../Styles/P.style";
 
 const Contact = () => {
   return (
@@ -36,6 +37,10 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      <P className="credits">
+        Credits to Vohn - for the pictures, Family, Friends, Founders and
+        Coders, Space4, and Irene
+      </P>
     </section>
   );
 };

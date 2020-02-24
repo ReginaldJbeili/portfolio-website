@@ -131,7 +131,6 @@ const Slideshow = () => {
   const stack = imageArray[imageCount].stack;
 
   const [togglePlay, setTogglePlay] = React.useState(false);
-  console.log(togglePlay);
 
   React.useEffect(() => {
     let imageSlide;
