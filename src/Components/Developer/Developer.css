@@ -1,0 +1,68 @@
+.developer-story {
+  height: 75vh;
+  width: 100vw;
+  max-width: 100%;
+  padding-top: 2rem;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../assets/images/DSC01804.JPG);
+}
+
+.box-container {
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  padding: 1rem 1rem 0rem 1rem;
+  border-radius: 7px;
+  width: 35%;
+}
+
+.box-container p {
+  font-size: 0.8rem;
+}
+
+.box-container h3 {
+  color: white;
+}
+
+.box-container img {
+  height: 40px;
+  width: 40px;
+  margin: 3px;
+}
+
+.icon-container {
+  display: flex;
+  margin: 1rem 0 0 0;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .box-container img {
+    height: 15px;
+    width: 15px;
+    margin: 3px;
+  }
+
+  .box-container {
+    padding: 0rem 0rem 0.5rem 0rem;
+    border-radius: 7px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .developer-story {
+    align-content: end;
+  }
+  .icon-container {
+    display: flex;
+    margin: 0.5rem 0 0 0;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,24 @@
+.about-section {
+  padding-top: 4rem;
+  height: 85vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.about-button-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  margin: -1rem 0 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-section {
+    margin: 0 0 2rem 0;
+  }
+
+  .about-section {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+}

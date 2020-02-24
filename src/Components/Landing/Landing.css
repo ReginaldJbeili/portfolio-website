@@ -1,0 +1,29 @@
+.landing-page {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  background-image: url(../../assets/images/DSC01633.JPG);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.landing-page h1 {
+  margin: 0 0 0 5rem;
+  padding: 0 0 2rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .landing-page {
+    background-image: url(../../assets/images/DSC01628.JPG);
+    justify-content: flex-end;
+  }
+
+  .landing-page h1 {
+    margin: 0 0 0 2rem;
+    padding: 0 0 2rem 0;
+  }
+}
