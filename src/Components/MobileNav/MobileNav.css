@@ -1,0 +1,21 @@
+/* .nav-bar-section {
+  position: sticky;
+  top: 0;
+  bottom: 50%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  z-index: 1;
+  color: white;
+  width: 50%;
+}
+
+.mobile-nav-bar {
+  position: sticky;
+  top: 20;
+  bottom: 50%;
+  z-index: 1;
+  color: white;
+} */
