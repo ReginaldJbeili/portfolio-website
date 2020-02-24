@@ -6,7 +6,7 @@ const Gamer = () => {
     <article className="gamer-story">
       <div className="gamer-container">
         <ul>
-          As professional card (Magic: the Gathering) <br />
+          As a professional card (Magic: the Gathering) <br />
           player, I've developed my:
           <li>critical thinking</li>
           <li>problem-solving</li>

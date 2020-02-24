@@ -38,8 +38,8 @@ const Contact = () => {
         </div>
       </div>
       <P className="credits">
-        Credits to Vohn - for the pictures, Family, Friends, Founders and
-        Coders, Space4, and Irene
+        Credits to my Family, Friends, Founders and Coders, Space4, Vohn - for
+        the pictures, and Irene - for being you
       </P>
     </section>
   );
