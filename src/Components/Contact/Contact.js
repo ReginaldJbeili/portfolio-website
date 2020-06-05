@@ -10,7 +10,7 @@ import P from "../Styles/P.style";
 const Contact = () => {
   return (
     <section id="contact" className="contact-section">
-      <H2 className="white-text">Contact Me</H2>
+      <H2 className="white-text">Contact</H2>
       <div className="contact-info">
         <H1 className="white-text">reginaldjbeili@gmail.com</H1>
         <div className="links-container">

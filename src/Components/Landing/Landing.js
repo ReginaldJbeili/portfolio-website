@@ -12,7 +12,7 @@ const Landing = () => {
 
       <H1 className="h1-sub">Software Developer</H1>
 
-      <H1>And welcome to my website</H1>
+      <H1>Welcome to my website</H1>
 
       <A2
         className="h1-sub"
@@ -20,7 +20,7 @@ const Landing = () => {
         rel="noopener noreferrer"
         target="_blank"
       >
-        Go ahead and view my CV
+        View my CV here
       </A2>
     </section>
   );
