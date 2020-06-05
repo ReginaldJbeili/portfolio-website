@@ -1,6 +1,7 @@
 import React from "react";
 import "./Landing.css";
 import H1 from "../Styles/H1.style";
+import A2 from "../Styles/A2.style";
 
 const Landing = () => {
   return (
@@ -11,9 +12,16 @@ const Landing = () => {
 
       <H1 className="h1-sub">Software Developer</H1>
 
-      <H1>Welcome to my website</H1>
+      <H1>And welcome to my website</H1>
 
-      <H1 className="h1-sub">Go ahead and grab a CV</H1>
+      <A2
+        className="h1-sub"
+        href="https://drive.google.com/file/d/1x9g8bEpA1MtU6HhbDQNhGwwnRMKsf0Nj/view?usp=sharing"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Go ahead and view my CV
+      </A2>
     </section>
   );
 };
