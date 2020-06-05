@@ -1,13 +1,27 @@
 import React from "react";
 import "./Landing.css";
 import H1 from "../Styles/H1.style";
+import A2 from "../Styles/A2.style";
 
 const Landing = () => {
   return (
     <section id="home" className="landing-page">
+      <H1>I am</H1>
+
       <H1>Reginald Jbeili</H1>
 
-      <H1>Full-Stack Web Developer</H1>
+      <H1 className="h1-sub">Software Developer</H1>
+
+      <H1>And welcome to my website</H1>
+
+      <A2
+        className="h1-sub"
+        href="https://drive.google.com/file/d/1x9g8bEpA1MtU6HhbDQNhGwwnRMKsf0Nj/view?usp=sharing"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Go ahead and view my CV
+      </A2>
     </section>
   );
 };
