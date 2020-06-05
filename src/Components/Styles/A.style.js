@@ -4,6 +4,7 @@ const A = styled.a`
   color: #ffffff;
   transition-property: transform, font-size;
   transition-duration: 0.5s;
+  text-decoration: none;
   link {
     color: #ffffff;
   }

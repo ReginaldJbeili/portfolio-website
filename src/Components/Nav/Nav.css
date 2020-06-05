@@ -1,15 +1,34 @@
 .nav-bar-section {
   position: fixed;
   top: 300;
+  background-image: url(../../assets/images/group1.png);
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  background-size: cover;
   display: flex;
   flex-flow: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: black;
   z-index: 1;
   color: white;
-  width: 50%;
+  width: 100%;
+  font-size: x-large;
   padding: 1rem 0 1rem 0;
+}
+
+.home {
+  margin-left: 3rem;
+}
+.about {
+  padding-left: 3rem;
+}
+.projects {
+  padding-left: 10rem;
+}
+
+.contact {
+  margin-right: 3rem;
 }
 
 @media only screen and (max-width: 768px) {
