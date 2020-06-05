@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const A2 = styled.a`
-  font-family: "Poiret One";
+  font-family: "Cinzel";
   font-weight: lighter;
   font-size: 4rem;
   margin: 0 0 0 5rem;
