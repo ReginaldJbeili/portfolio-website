@@ -2,23 +2,27 @@
   height: 100vh;
   width: 100vw;
   max-width: 100%;
-  background-image: url(../../assets/images/DSC01628.JPG);
+  background-image: url(../../assets/images/background1.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 .landing-page h1 {
-  margin: 0 0 0 5rem;
+  margin: 17rem 0 0 5rem;
   padding: 0 0 2rem 0;
 }
 
 .landing-page .h1-sub {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: -2rem;
+}
+
+.landing-page .a-sub {
+  font-size: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
