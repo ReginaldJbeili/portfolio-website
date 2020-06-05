@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <section id="about" className="about-section">
-      <H2>About Me</H2>
+      <H2>About</H2>
       <div className="about-button-container">
         <Button
           onClick={() => {
