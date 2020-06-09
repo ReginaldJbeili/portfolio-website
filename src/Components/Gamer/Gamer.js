@@ -6,16 +6,15 @@ const Gamer = () => {
     <article className="gamer-story">
       <ul>
         <li>
-          Attending meet-ups such as Front-End London, andCodebar(MentoringHTML
-          andCSS , and being mentored otherlanguages)
+          Understanding and cracking coding problems in Codewars and Leetcode
         </li>
         <li>
-          Competing in globaltournaments as a professional playerin a card game
-          calledMagic theGathering
+          Attending meet-ups such as Front-End London and Codebar as a
+          mentor/mentee
         </li>
-        <li>Playing badminton,tennis, and tabletop games</li>
         <li>
-          Understanding and cracking coding problems inCodewars and Leetcode
+          Competing in global tournaments as a professional player in a card
+          game called Magic the Gathering
         </li>
       </ul>
     </article>

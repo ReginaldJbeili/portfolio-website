@@ -1,10 +1,8 @@
 .nurse-story {
-  height: 75vh;
-  width: 100vw;
-  max-width: 100%;
-  padding-top: 2rem;
-  justify-items: center;
-  align-items: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
   /* grid-template-columns: repeat(2, 1fr); */
   /* background-size: contain;
   background-repeat: no-repeat;
@@ -14,6 +12,25 @@
 
 .nurse-container {
   background-color: white;
+}
+
+.work-container {
+  display: flex;
+  margin: 1rem 0 1rem 0;
+  flex-direction: row;
+}
+
+.big-font {
+  color: blue;
+}
+.education-container {
+  display: flex;
+  margin: 1rem 0 1rem 0;
+  flex-direction: row;
+}
+.nurse-story img {
+  height: 60px;
+  width: 60px;
 }
 
 /* .nurse-box-container {
