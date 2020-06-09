@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 const H2 = styled.h2`
-  color: white;
+  color: black;
+  font-family: "Lato";
+  font-weight: lighter;
   margin: 0 0 1rem 4rem;
 
   @media (max-width: 768px) {

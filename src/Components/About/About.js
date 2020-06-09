@@ -4,6 +4,8 @@ import Nurse from "../Nurse/Nurse";
 import Gamer from "../Gamer/Gamer";
 import Button from "../Styles/Button.style";
 import H2 from "../Styles/H2.style";
+import profilepic from "../../assets/images/profilepic.png";
+import P from "../Styles/P.style";
 
 import "./About.css";
 
@@ -14,40 +16,52 @@ const About = () => {
 
   return (
     <section id="about" className="about-section">
-      <H2>About</H2>
-      <div className="about-button-container">
-        <Button
-          onClick={() => {
-            setToggleDev(true);
-            setToggleNurse(false);
-            setToggleGamer(false);
-          }}
-        >
-          Tech Stack
-        </Button>
-        <Button
-          onClick={() => {
-            setToggleDev(false);
-            setToggleNurse(true);
-            setToggleGamer(false);
-          }}
-        >
-          History
-        </Button>
-        <Button
-          onClick={() => {
-            setToggleDev(false);
-            setToggleNurse(false);
-            setToggleGamer(true);
-          }}
-        >
-          Trivia
-        </Button>
+      <div className="profile-container">
+        <img className="profile-pic" src={profilepic} alt="portrait of self" />
+        <P>
+          Software Developer with a multi-faceted background in technology,
+          health-care, and professional gaming. Developed a strong work ethic,
+          technical prowess, leadership, critical thinking, empathy, and
+          camaraderie. Looking to leverage my expertise in these fields to
+          pursue a full-time career in tech
+        </P>
       </div>
-
-      {toggleDev ? <Developer /> : null}
-      {toggleNurse ? <Nurse /> : null}
-      {toggleGamer ? <Gamer /> : null}
+      <div className="background">
+        <div className="about-button-container">
+          <Button
+            onClick={() => {
+              setToggleDev(true);
+              setToggleNurse(false);
+              setToggleGamer(false);
+            }}
+          >
+            Tech Stack
+          </Button>
+          <Button
+            onClick={() => {
+              setToggleDev(false);
+              setToggleNurse(true);
+              setToggleGamer(false);
+            }}
+          >
+            Background
+          </Button>
+          <Button
+            onClick={() => {
+              setToggleDev(false);
+              setToggleNurse(false);
+              setToggleGamer(true);
+            }}
+          >
+            Interests
+          </Button>
+        </div>
+        <div>
+          {toggleDev ? <Developer /> : null}
+          {toggleNurse ? <Nurse /> : null}
+          {toggleGamer ? <Gamer /> : null}
+        </div>
+      </div>
     </section>
   );
 };

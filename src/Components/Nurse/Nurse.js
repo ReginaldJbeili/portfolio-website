@@ -1,23 +1,21 @@
 import React from "react";
 import "./Nurse.css";
+import P from "../Styles/P.style";
 
 const Nurse = () => {
   return (
     <article className="nurse-story">
-      <div className="nurse-box-container">
-        <ul>
-          As an operating theatre nurse/
-          <br />
-          team leader for 7 years I've learnt:
-          <li>emotional intelligence</li>
-          <li>compassion</li>
-          <li>professionalism</li>
-          <li>collaboration</li>
-          <li>presence of mind</li>
-          <li>prioritisation capacity</li>
-          <li>organisational prowess</li>
-        </ul>
-      </div>
+      <P>Work Experience</P>
+      <P>Software Developer - HelloHub Covid19 Response</P>
+      <P>Software Developer - Gateway 2 Heritage</P>
+      <P>Software Developer - Humble</P>
+      <P>Theatre Nurse/Team Leader - King's College Hospital</P>
+      <P>Education</P>
+      <P>Full Stack Web Development - Founders and Coders</P>
+      <P>Mentorship - London South Bank University</P>
+      <P>
+        Bachelor of Science in Nursing - University of the Philippines Manila
+      </P>
     </article>
   );
 };

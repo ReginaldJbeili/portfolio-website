@@ -3,13 +3,40 @@
   height: 85vh;
   width: 100vw;
   max-width: 100%;
+  display: flex;
 }
 
 .about-button-container {
+  justify-content: space-evenly;
   display: flex;
-  justify-content: center;
   flex-flow: row;
-  margin: -1rem 0 0 0;
+  margin: 3rem 0 1rem 0;
+}
+
+.profile-pic {
+  margin: 1rem 0 1rem 0;
+  border-radius: 50%;
+  border-color: black;
+  border-style: solid;
+}
+
+.about-section p {
+  margin: 0 5rem 0 5rem;
+  text-align: justify;
+  color: black;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  width: 50%;
+  align-items: center;
+}
+.background {
+  background-color: blue;
+  width: 50%;
+  background-image: url(../../assets/images/aboutpic.jpg);
+  background-size: cover;
 }
 
 @media only screen and (max-width: 600px) {

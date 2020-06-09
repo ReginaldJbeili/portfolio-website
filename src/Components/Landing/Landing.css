@@ -2,7 +2,8 @@
   height: 100vh;
   width: 100vw;
   max-width: 100%;
-  background-image: url(../../assets/images/background1.jpg);
+  background-color: white;
+  background-image: url(../../assets/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -14,10 +15,17 @@
 .landing-page h1 {
   margin: 17rem 0 0 5rem;
   padding: 0 0 2rem 0;
+  font-size: 3rem;
+}
+
+.landing-page h2 {
+  font-size: 0.8rem;
+  width: 28%;
+  margin: 0 0 2rem 5rem;
 }
 
 .landing-page .h1-sub {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: -2rem;
 }
 

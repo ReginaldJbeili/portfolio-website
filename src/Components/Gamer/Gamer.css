@@ -3,24 +3,23 @@
   width: 100vw;
   max-width: 100%;
   padding-top: 2rem;
-  display: grid;
+  /* display: grid;
   justify-items: center;
   align-items: end;
   grid-template-columns: repeat(2, 1fr);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../../assets/images/DSC01832.JPG);
+  background-position: center; */
 }
 
-.gamer-container {
+/* .gamer-container {
   background-color: black;
   grid-column-start: 2;
   border-style: solid;
   border-color: white;
   padding: 0 2rem 0 2rem;
   border-radius: 7px;
-}
+} */
 
 .gamer-container li {
   font-size: 1rem;

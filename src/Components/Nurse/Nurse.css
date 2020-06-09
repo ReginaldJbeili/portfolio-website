@@ -3,28 +3,27 @@
   width: 100vw;
   max-width: 100%;
   padding-top: 2rem;
-  display: grid;
   justify-items: center;
   align-items: start;
-  grid-template-columns: repeat(2, 1fr);
-  background-size: contain;
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../../assets/images/DSC01722.JPG);
+  background-image: url(../../assets/images/DSC01722.JPG); */
 }
 
 .nurse-container {
   background-color: white;
 }
 
-.nurse-box-container {
+/* .nurse-box-container {
   background-color: black;
   border-style: solid;
   border-color: white;
   padding: 0rem 1rem 0rem 1rem;
   border-radius: 7px;
   width: 50%;
-}
+} */
 
 .nurse-box-container li {
   font-size: 1rem;
