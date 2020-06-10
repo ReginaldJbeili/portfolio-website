@@ -4,7 +4,6 @@ const H2 = styled.h2`
   color: black;
   font-family: "Lato";
   font-weight: lighter;
-  margin: 0 0 1rem 4rem;
 
   @media (max-width: 768px) {
     margin: 0rem 0 2rem 0;

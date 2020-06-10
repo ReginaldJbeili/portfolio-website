@@ -1,24 +1,25 @@
-.projects-slideshow-section {
-  padding-top: 4rem;
-  height: 90vh;
-  width: 100vw;
-  max-width: 100%;
+.projects-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../assets/images/projects-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .project-button-container {
+  padding-top: 6rem;
   display: flex;
   justify-content: center;
 }
 
-p {
-  color: white;
+.project-button-grid {
+  margin-right: 3rem;
 }
 
-.projects-grid-section {
-  padding-top: 4rem;
-  height: 200vh;
-  width: 100vw;
-  max-width: 100%;
+.project-button-slideshow {
+  margin-left: 3rem;
 }
 
 @media only screen and (max-width: 768px) {
