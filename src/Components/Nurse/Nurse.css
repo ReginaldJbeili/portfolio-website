@@ -1,30 +1,46 @@
 .nurse-story {
-  height: 75vh;
-  width: 100vw;
-  max-width: 100%;
-  padding-top: 2rem;
-  display: grid;
-  justify-items: center;
-  align-items: start;
-  grid-template-columns: repeat(2, 1fr);
-  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../../assets/images/DSC01722.JPG);
+  background-image: url(../../assets/images/DSC01722.JPG); */
 }
 
 .nurse-container {
   background-color: white;
 }
 
-.nurse-box-container {
+.work-container {
+  display: flex;
+  margin: 1rem 0 1rem 0;
+  flex-direction: row;
+}
+
+.big-font {
+  color: blue;
+}
+.education-container {
+  display: flex;
+  margin: 1rem 0 1rem 0;
+  flex-direction: row;
+}
+.nurse-story img {
+  height: 60px;
+  width: 60px;
+}
+
+/* .nurse-box-container {
   background-color: black;
   border-style: solid;
   border-color: white;
   padding: 0rem 1rem 0rem 1rem;
   border-radius: 7px;
   width: 50%;
-}
+} */
 
 .nurse-box-container li {
   font-size: 1rem;

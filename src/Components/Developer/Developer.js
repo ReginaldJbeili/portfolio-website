@@ -47,292 +47,123 @@ const frontEnd = [
   {
     image: html,
     alt: "html5",
-    title: "HTML5"
+    title: "HTML5",
   },
   {
     image: css,
-    alt: "css5",
-    title: "CSS5"
+    alt: "css3",
+    title: "CSS3",
   },
   {
     image: javascript,
     alt: "Javascript ES6+",
-    title: "JavaScript ES6+"
+    title: "JavaScript ES6+",
   },
   {
     image: markdown,
     alt: "Markdown",
-    title: "Markdown"
+    title: "Markdown",
   },
   {
     image: react,
     alt: "React",
-    title: "React"
-  },
-  {
-    image: reactRouter,
-    alt: "React Router",
-    title: "React Router"
-  },
-  {
-    image: styledComponents,
-    alt: "Styled Components",
-    title: "Styled Components"
-  }
-];
-
-const backEnd = [
-  {
-    image: auth,
-    alt: "Auth, Bcrypt, JWT",
-    title: "Auth, Bcrypt, JWT"
+    title: "React",
   },
   {
     image: postgresql,
     alt: "PostgreSQL",
-    title: "PostgreSQL"
-  },
-  {
-    image: handlebars,
-    alt: "Handlebars",
-    title: "Handlebars"
-  },
-  {
-    image: express,
-    alt: "Express",
-    title: "Express"
-  },
-  {
-    image: airtable,
-    alt: "Airtable",
-    title: "Airtable"
+    title: "PostgreSQL",
   },
   {
     image: node,
     alt: "NodeJS",
-    title: "NodeJS"
+    title: "NodeJS",
   },
   {
     image: lambda,
     alt: "Netlify Lambda Functions",
-    title: "Netlify Lambda Functions"
-  }
-];
-
-const test = [
+    title: "Netlify Lambda Functions",
+  },
+  {
+    image: express,
+    alt: "Express",
+    title: "Express",
+  },
   {
     image: jest,
     alt: "Jest",
-    title: "Jest"
+    title: "Jest",
   },
   {
     image: reactTestingLibrary,
     alt: "React Testing Library",
-    title: "React Testing Library"
-  },
-  {
-    image: tapeNockSupertest,
-    alt: "Tape, Nock, Supertest",
-    title: "Tape, Nock, Supertest"
-  }
-];
-
-const tools = [
-  {
-    image: codeCov,
-    alt: "Codecov",
-    title: "Codecov"
+    title: "React Testing Library",
   },
   {
     image: figma,
     alt: "Figma",
-    title: "Figma"
+    title: "Figma",
   },
   {
     image: git,
     alt: "Git",
-    title: "Git"
+    title: "Git",
   },
   {
     image: github,
     alt: "Github",
-    title: "Github"
+    title: "Github",
   },
   {
     image: googleAnalytics,
     alt: "Google Analytics",
-    title: "Google Analytics"
+    title: "Google Analytics",
   },
   {
     image: heroku,
     alt: "Heroku",
-    title: "Heroku"
+    title: "Heroku",
   },
   {
     image: netlify,
     alt: "Netlify",
-    title: "Netlify"
+    title: "Netlify",
   },
   {
     image: travis,
     alt: "Travis",
-    title: "Travis"
-  }
-];
-
-const methodologies = [
-  {
-    image: accessibility100,
-    alt: "Accessibility 100%",
-    title: "Accessibility 100%"
-  },
-  {
-    image: agile,
-    alt: "Agile",
-    title: "Agile"
-  },
-  {
-    image: pairMobProgramming,
-    alt: "Pair/Mob Programming",
-    title: "Pair/Mob Programming"
-  },
-  {
-    image: refactor,
-    alt: "Refactoring",
-    title: "Refactoring"
-  },
-  {
-    image: scrum,
-    alt: "Scrum",
-    title: "Scrum"
-  },
-  {
-    image: sensitiveDataHandling,
-    alt: "Sensitive Data Handling",
-    title: "Sensitive Data Handling"
+    title: "Travis",
   },
   {
     image: tdd,
     alt: "Test-Driven Development",
-    title: "Test-Driven Development"
-  }
-];
-
-const utilities = [
-  {
-    image: atom,
-    alt: "Atom",
-    title: "Atom"
+    title: "Test-Driven Development",
   },
   {
     image: vscode,
     alt: "VS Code",
-    title: "VS Code"
+    title: "VS Code",
   },
   {
     image: terminal,
     alt: "Terminal",
-    title: "Terminal"
+    title: "Terminal",
   },
-  {
-    image: powershell,
-    alt: "Powershell",
-    title: "Powershell"
-  }
 ];
+
 const Developer = () => {
   return (
     <article className="developer-story">
       <div className="box-container">
-        <H4>Front End</H4>
         <div className="icon-container">
-          {frontEnd.map(element => {
+          {frontEnd.map((element) => {
             return (
               <img
                 key={element.title}
                 src={element.image}
                 alt={element.alt}
                 title={element.title}
-              />
-            );
-          })}
-        </div>
-      </div>
-
-      <div className="box-container">
-        <H4>Tools</H4>
-        <div className="icon-container">
-          {tools.map(element => {
-            return (
-              <img
-                key={element.title}
-                src={element.image}
-                alt={element.alt}
-                title={element.title}
-              />
-            );
-          })}
-        </div>
-      </div>
-
-      <div className="box-container">
-        <H4>Back End</H4>
-        <div className="icon-container">
-          {backEnd.map(element => {
-            return (
-              <img
-                key={element.title}
-                src={element.image}
-                alt={element.alt}
-                title={element.title}
-              />
-            );
-          })}
-        </div>
-      </div>
-
-      <div className="box-container">
-        <H4>Methods</H4>
-        <div className="icon-container">
-          {methodologies.map(element => {
-            return (
-              <img
-                key={element.title}
-                src={element.image}
-                alt={element.alt}
-                title={element.title}
-              />
-            );
-          })}
-        </div>
-      </div>
-
-      <div className="box-container">
-        <H4>Tests</H4>
-        <div className="icon-container">
-          {test.map(element => {
-            return (
-              <img
-                key={element.title}
-                src={element.image}
-                alt={element.alt}
-                title={element.title}
-              />
-            );
-          })}
-        </div>
-      </div>
-
-      <div className="box-container">
-        <H4>Utilities</H4>
-        <div className="icon-container">
-          {utilities.map(element => {
-            return (
-              <img
-                key={element.title}
-                src={element.image}
-                alt={element.alt}
-                title={element.title}
+                className="stack-icon"
               />
             );
           })}

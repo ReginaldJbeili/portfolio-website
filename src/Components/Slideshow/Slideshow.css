@@ -1,7 +1,42 @@
-.slideshow {
+.slideshow-container {
   display: flex;
   flex-flow: column;
   align-items: center;
+}
+
+.slideshow-image-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.slideshow-links-row {
+  flex-direction: row;
+}
+
+.slideshow-container a {
+  font-size: 0.8rem;
+  margin-left: 1.3rem;
+  font-family: "Lato";
+}
+
+.slideshow-project-card {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px #d3d3d3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  height: 150px;
+  width: 350px;
+}
+.slideshow-container img {
+  margin: 1rem;
+  height: 100px;
+  width: 100px;
 }
 
 .button-container {
@@ -9,26 +44,18 @@
   flex-flow: row;
 }
 
-img {
-  height: 300px;
-  width: 300px;
-}
-
 .slideshow-button {
   background-color: black;
+  margin: 1rem;
 }
 
 .slideshow-button img {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
 }
 
 .slideshow-button:hover {
   background-color: gray;
-}
-
-.slideshow {
-  margin-top: 2rem;
 }
 
 .slideshow .project-images {

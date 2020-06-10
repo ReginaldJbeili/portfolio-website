@@ -1,19 +1,44 @@
 .grid-container {
-  height: 75vh;
-  width: 100vw;
-  max-width: 100%;
-  padding-top: 2rem;
   display: grid;
   justify-items: center;
-  align-items: end;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 0 2rem 0 2rem;
 }
 
+.image-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.links-row {
+  flex-direction: row;
+}
+
+.grid-container a {
+  font-size: 0.8rem;
+  margin-left: 1.3rem;
+  font-family: "Lato";
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px #d3d3d3;
+  margin-top: 2rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  height: 150px;
+  width: 350px;
+}
 .grid-container img {
-  border-style: ridge;
-  border-color: white;
-  border-width: 0.5rem;
-  border-radius: 5px;
+  margin: 1rem;
+  height: 100px;
+  width: 100px;
 }
 
 @media only screen and (max-width: 768px) {

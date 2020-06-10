@@ -4,6 +4,8 @@ import Nurse from "../Nurse/Nurse";
 import Gamer from "../Gamer/Gamer";
 import Button from "../Styles/Button.style";
 import H2 from "../Styles/H2.style";
+import profilepic from "../../assets/images/profilepic.png";
+import P from "../Styles/P.style";
 
 import "./About.css";
 
@@ -14,7 +16,6 @@ const About = () => {
 
   return (
     <section id="about" className="about-section">
-      <H2>About</H2>
       <div className="about-button-container">
         <Button
           onClick={() => {
@@ -32,7 +33,7 @@ const About = () => {
             setToggleGamer(false);
           }}
         >
-          History
+          Background
         </Button>
         <Button
           onClick={() => {
@@ -41,13 +42,14 @@ const About = () => {
             setToggleGamer(true);
           }}
         >
-          Trivia
+          Interests
         </Button>
       </div>
-
-      {toggleDev ? <Developer /> : null}
-      {toggleNurse ? <Nurse /> : null}
-      {toggleGamer ? <Gamer /> : null}
+      <div>
+        {toggleDev ? <Developer /> : null}
+        {toggleNurse ? <Nurse /> : null}
+        {toggleGamer ? <Gamer /> : null}
+      </div>
     </section>
   );
 };

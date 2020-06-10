@@ -1,10 +1,3 @@
-.singleproject-section {
-  margin-top: 2rem;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-
 .singleproject-section img {
   height: 300px;
   width: 500px;
