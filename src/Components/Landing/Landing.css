@@ -36,11 +36,33 @@
 
 @media only screen and (max-width: 768px) {
   .landing-page {
-    justify-content: flex-end;
+    background-image: url(../../assets/images/background-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: start;
   }
 
   .landing-page h1 {
+    font-size: 2rem;
+    margin: 4rem 0 0 2rem;
+    padding: 0 0 0 0;
+  }
+
+  .landing-page .h1-sub {
+    font-size: 1rem;
     margin: 0 0 0 2rem;
-    padding: 0 0 2rem 0;
+  }
+
+  .landing-page h2 {
+    font-size: 0.6rem;
+    width: 50%;
+    text-align: justify;
+    margin: 0 0 0 2rem;
+  }
+
+  .landing-page .a-sub {
+    font-size: 0.8rem;
+    margin: 1rem 0 0 2rem;
   }
 }
