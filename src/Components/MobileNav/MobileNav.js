@@ -15,30 +15,31 @@ import FolderOpenIcon from "@material-ui/icons/FolderOpen";
 import ContactsIcon from "@material-ui/icons/Contacts";
 import HomeIcon from "@material-ui/icons/Home";
 import InfoIcon from "@material-ui/icons/Info";
+import burger from "../../assets/icons/burger-menu.png";
 
 const useStyles = makeStyles({
   root: {
-    position: "fixed"
+    position: "fixed",
   },
   list: {
-    width: 250
+    width: 250,
   },
   fullList: {
-    width: "auto"
+    width: "auto",
   },
   link: {
     textDecoration: "none",
-    color: "black"
-  }
+    color: "black",
+  },
 });
 const MobileNav = () => {
   const classes = useStyles();
 
   const [state, setState] = React.useState({
-    left: false
+    left: false,
   });
 
-  const toggleDrawer = (side, open) => event => {
+  const toggleDrawer = (side, open) => (event) => {
     if (
       event.type === "keydown" &&
       (event.key === "Tab" || event.key === "Shift")
@@ -49,7 +50,7 @@ const MobileNav = () => {
     setState({ ...state, [side]: open });
   };
 
-  const sideList = side => (
+  const sideList = (side) => (
     <div
       className={classes.list}
       role="presentation"
@@ -95,7 +96,7 @@ const MobileNav = () => {
             <ListItemIcon style={{ color: "#000000" }}>
               <ContactsIcon />
             </ListItemIcon>
-            <ListItemText style={{ color: "#000000" }}>Contact Me</ListItemText>
+            <ListItemText style={{ color: "#000000" }}>Contact</ListItemText>
           </ListItem>
         </A>
       </List>
@@ -105,9 +106,14 @@ const MobileNav = () => {
 
   return (
     <div className={classes.root}>
-      <Button onClick={toggleDrawer("left", true)} style={{ color: "#FFFFFF" }}>
+      <Button
+        onClick={toggleDrawer("left", true)}
+        style={{
+          margin: "1rem 0 0 1rem",
+          color: "#000000",
+        }}
+      >
         <MenuIcon />
-        <P>Menu</P>
       </Button>
       <Drawer
         anchor="left"
