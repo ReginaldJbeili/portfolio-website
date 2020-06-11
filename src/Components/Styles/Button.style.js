@@ -4,7 +4,7 @@ const Button = styled.button`
   background-color: black;
   color: white;
   font-size: 1.5rem;
-  font-family: "Cinzel";
+  font-family: "Montserrat";
   transition-property: color, background-color, border-radius;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;

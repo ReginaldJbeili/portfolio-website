@@ -7,9 +7,9 @@ import A2 from "../Styles/A2.style";
 const Landing = () => {
   return (
     <section id="home" className="landing-page">
-      <H1>Reginald Jbeili</H1>
+      <H1>REGINALD JBEILI</H1>
 
-      <H1 className="h1-sub">Software Developer</H1>
+      <H1 className="h1-sub">SOFTWARE DEVELOPER</H1>
       <H2>
         Transitioned from the operating theatre as a scrub nurse into tech.
         Looking for a junior developer role where my strengths (critical

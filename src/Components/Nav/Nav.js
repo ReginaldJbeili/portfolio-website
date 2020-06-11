@@ -8,18 +8,18 @@ const Nav = () => {
     <section className="nav-bar-section">
       {/* <div className="left-side"> */}
       <A className="home" href="#home">
-        Home
+        HOME
       </A>
       <A className="about" href="#about">
-        About
+        ABOUT
       </A>
       {/* </div> */}
       {/* <div className="right-side"> */}
       <A className="projects" href="#projects">
-        Projects
+        PROJECTS
       </A>
       <A className="contact" href="#contact">
-        Contact
+        CONTACT
       </A>
       {/* </div> */}
     </section>
