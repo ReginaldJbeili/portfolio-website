@@ -82,11 +82,11 @@ const Slideshow = () => {
     {
       image: imageSource9,
       fullImage: fullImageSource9,
-      name: "Javascript Calculator",
+      name: "Javascript CalcuRalewayr",
       description:
-        "A calculator that you can use with button clicks or with typing on the keyboard",
-      websiteUrl: "https://reginaldjbeili.github.io/mycalculator/",
-      githubUrl: "https://github.com/ReginaldJbeili/mycalculator",
+        "A calcuRalewayr that you can use with button clicks or with typing on the keyboard",
+      websiteUrl: "https://reginaldjbeili.github.io/mycalcuRalewayr/",
+      githubUrl: "https://github.com/ReginaldJbeili/mycalcuRalewayr",
       stack: "HTML5, CSS3, and JavaScript",
     },
   ];

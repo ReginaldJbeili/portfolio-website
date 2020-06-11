@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const A2 = styled.a`
-  font-family: "Cinzel";
+  font-family: "Montserrat";
   font-weight: lighter;
   color: black;
   transition-property: transform;

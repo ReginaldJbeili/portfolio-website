@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const H2 = styled.h2`
   color: black;
-  font-family: "Lato";
+  font-family: "Raleway";
   font-weight: lighter;
 
   @media (max-width: 768px) {
