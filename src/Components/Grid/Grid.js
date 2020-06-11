@@ -87,31 +87,35 @@ const Grid = () => {
     <div className="grid-container">
       {projectArray.map((image) => (
         <div key={image.name} className="project-card">
-          <div className="image-column">
-            <img src={image.image} alt={image.name} />
-            <div className="links-row">
-              <A2
-                className="white-text"
-                href={image.websiteUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live
-              </A2>
-              <A2
-                className="white-text"
-                href={image.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Source
-              </A2>
+          <div className="main-info-row">
+            <div className="image-column">
+              <img src={image.image} alt={image.name} />
+              <div className="links-row">
+                <A2
+                  className="white-text"
+                  href={image.websiteUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </A2>
+                <A2
+                  className="white-text"
+                  href={image.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Source
+                </A2>
+              </div>
+            </div>
+            <div className="text-column">
+              <P>{image.name}</P>
+              <P>{image.description}</P>
             </div>
           </div>
-          <div className="text-column">
-            <P>{image.name}</P>
-            <P>{image.description}</P>
-            <P>{image.stack}</P>
+          <div className="stack">
+            <P>Tech Stack: {image.stack}</P>
           </div>
         </div>
       ))}

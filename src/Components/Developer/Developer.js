@@ -32,17 +32,17 @@ import terminal from "../../assets/stack-icons/utilities/terminal.svg";
 const frontEnd = [
   {
     image: html,
-    alt: "html5",
+    alt: "HTML5",
     title: "HTML5",
   },
   {
     image: css,
-    alt: "css3",
+    alt: "CSS3",
     title: "CSS3",
   },
   {
     image: javascript,
-    alt: "Javascript ES6+",
+    alt: "JavaScript ES6+",
     title: "JavaScript ES6+",
   },
   {
@@ -97,8 +97,8 @@ const frontEnd = [
   },
   {
     image: github,
-    alt: "Github",
-    title: "Github",
+    alt: "GitHub",
+    title: "GitHub",
   },
   {
     image: googleAnalytics,
