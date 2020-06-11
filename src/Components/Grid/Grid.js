@@ -26,7 +26,7 @@ const Grid = () => {
       fullImage: fullImageSource1,
       name: "GATEWAY 2 HERITAGE",
       description:
-        "Web app MVP for museums/archives to sell licensing of cultural images for commercial/personal use",
+        "Web app MVP for museums/archives to sell licensing of cultural images for use",
       websiteUrl: "https://gateway2heritage.netlify.com",
       githubUrl: "https://github.com/fac18/t4b-g2h",
       stack:
@@ -78,8 +78,8 @@ const Grid = () => {
       name: "JAVASCRIPT CALCULATOR",
       description:
         "Calculator that you can use with button clicks or with typing on the keyboard",
-      websiteUrl: "https://reginaldjbeili.github.io/mycalcuRalewayr/",
-      githubUrl: "https://github.com/ReginaldJbeili/mycalcuRalewayr",
+      websiteUrl: "https://reginaldjbeili.github.io/mycalculator/",
+      githubUrl: "https://github.com/ReginaldJbeili/mycalculator",
       stack: "HTML5, CSS3, and JavaScript",
     },
   ];
