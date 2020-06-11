@@ -1,6 +1,6 @@
 import React from "react";
 import "./MobileNav.css";
-import P from "../Styles/P.style";
+
 import A from "../Styles/A.style";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
@@ -15,7 +15,6 @@ import FolderOpenIcon from "@material-ui/icons/FolderOpen";
 import ContactsIcon from "@material-ui/icons/Contacts";
 import HomeIcon from "@material-ui/icons/Home";
 import InfoIcon from "@material-ui/icons/Info";
-import burger from "../../assets/icons/burger-menu.png";
 
 const useStyles = makeStyles({
   root: {

@@ -2,11 +2,9 @@ import React from "react";
 import "./Projects.css";
 import Grid from "../Grid/Grid";
 import Slideshow from "../Slideshow/Slideshow";
-import { Link, Route, Switch } from "react-router-dom";
-import SingleProject from "../SingleProject/SingleProject";
-import H3 from "../Styles/H3.style";
+import { Route } from "react-router-dom";
+
 import Button from "../Styles/Button.style";
-import H2 from "../Styles/H2.style";
 
 const Projects = () => {
   const [toggleSlideshow, setToggleSlideshow] = React.useState(false);

@@ -11,6 +11,7 @@
 
 .project-button-container {
   padding-top: 6rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
 }
