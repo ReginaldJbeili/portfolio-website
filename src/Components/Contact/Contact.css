@@ -42,7 +42,7 @@
 @media only screen and (max-width: 768px) {
   .contact-section {
     background-image: url(../../assets/images/mobile-contact.jpg);
-    padding-right: 3rem;
+    padding-right: 5rem;
   }
 
   .contact-section h1 {

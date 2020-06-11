@@ -40,7 +40,7 @@
     background-image: url(../../assets/images/landing.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 85%;
+    background-position: 75%;
     justify-content: start;
   }
 
@@ -52,11 +52,11 @@
 
   .landing-page .h1-sub {
     font-size: 1rem;
-    margin: 0 0 0 2rem;
+    margin: 0 0 1rem 2rem;
   }
 
   .landing-page h2 {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     width: 50%;
     text-align: justify;
     margin: 0 0 0 2rem;

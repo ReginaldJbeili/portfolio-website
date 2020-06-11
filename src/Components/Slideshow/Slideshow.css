@@ -26,11 +26,10 @@
   background-color: white;
   border-radius: 10px;
   box-shadow: 10px 10px #d3d3d3;
-  margin-top: 2rem;
   margin-bottom: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
-  height: 150px;
+  height: 190px;
   width: 350px;
 }
 .slideshow-container img {
@@ -66,6 +65,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .slideshow-project-card {
+    height: 190px;
+    width: 330px;
+  }
   .button-container {
     margin: 0rem 0 0 0;
   }

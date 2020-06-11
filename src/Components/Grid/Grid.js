@@ -1,14 +1,12 @@
 import React from "react";
 import "./Grid.css";
-import { Link } from "react-router-dom";
+
 import P from "../Styles/P.style";
 import A2 from "../Styles/A2.style";
 import imageSource1 from "../../assets/project-images/snips/g2h.png";
 import imageSource2 from "../../assets/project-images/snips/humble.png";
 import imageSource3 from "../../assets/project-images/snips/feline-fun.png";
-import imageSource4 from "../../assets/project-images/snips/prepper.png";
-import imageSource5 from "../../assets/project-images/snips/got.png";
-import imageSource6 from "../../assets/project-images/snips/weather.png";
+
 import imageSource7 from "../../assets/project-images/snips/heritage.png";
 import imageSource8 from "../../assets/project-images/snips/cat-personality.png";
 import imageSource9 from "../../assets/project-images/snips/javascript-calc.png";
@@ -16,9 +14,7 @@ import imageSource9 from "../../assets/project-images/snips/javascript-calc.png"
 import fullImageSource1 from "../../assets/project-images/full-pics/g2h.png";
 import fullImageSource2 from "../../assets/project-images/full-pics/humble.png";
 import fullImageSource3 from "../../assets/project-images/full-pics/feline-fun.png";
-import fullImageSource4 from "../../assets/project-images/full-pics/prepper.png";
-import fullImageSource5 from "../../assets/project-images/full-pics/got.png";
-import fullImageSource6 from "../../assets/project-images/full-pics/weather.png";
+
 import fullImageSource7 from "../../assets/project-images/full-pics/heritage.png";
 import fullImageSource8 from "../../assets/project-images/full-pics/cat-personality.png";
 import fullImageSource9 from "../../assets/project-images/snips/javascript-calc.png";
@@ -28,49 +24,50 @@ const Grid = () => {
     {
       image: imageSource1,
       fullImage: fullImageSource1,
-      name: "Gateway 2 Heritage",
+      name: "GATEWAY 2 HERITAGE",
       description:
-        "A website that collates and displays content from various cultural heritage institutions",
+        "Web app MVP for museums/archives to sell licensing of cultural images for commercial/personal use",
       websiteUrl: "https://gateway2heritage.netlify.com",
       githubUrl: "https://github.com/fac18/t4b-g2h",
       stack:
-        "React, React-Router-DOM, Styled Components, Airtable, Netlify Functions, Netlify",
+        "React.JS, React-Router-DOM, Airtable, Material UI, Netlify Functions, Netlify",
     },
     {
       image: imageSource2,
       fullImage: fullImageSource2,
-      name: "humble",
+      name: "HUMBLE",
       description:
-        "A website to develop the local community of the person using it by sharing skills to and from community members",
+        "Web app to learn and teach skills within your local community utilising Google Maps",
       websiteUrl: "https://wearehumble.herokuapp.com",
       githubUrl: "https://github.com/fac18/humble",
-      stack: "React, Express, PostgreSQL, Google Maps, Heroku",
+      stack: "React.JS, Node.JS, Express.JS, PostgreSQL, Google Maps, Heroku",
     },
     {
       image: imageSource3,
       fullImage: fullImageSource3,
-      name: "Feline Pet Game",
+      name: "FELINE FUN",
       description:
-        "A game about feeding or playing with your chosen cat, receiving content from the Cat API about all the different cat breeds in their database",
+        "Game about feeding/playing with your chosen cat, receiving the different cat breeds from the Cat API",
       websiteUrl: "https://feline-fun-mr-project.netlify.com",
       githubUrl: "https://github.com/ReginaldJbeili/feline-fun-mr-project",
-      stack: "React, Netlify",
+      stack: "React.JS, Netlify",
     },
     {
       image: imageSource7,
       fullImage: fullImageSource7,
-      name: "UK heritage sites",
-      description: "An autocompleter website to search for UK heritage sites",
+      name: "UK HERITAGE SITES",
+      description:
+        "Autocompleter website to search for UK heritage sites that links to their Wikipedia pages",
       websiteUrl: "https://week4-gmno-autocomplete.herokuapp.com",
       githubUrl: "https://github.com/fac18/week4-gmno-autocomplete",
-      stack: "HTML5, CSS3, Javascript, and Node.js",
+      stack: "HTML5, CSS3, JavaScript, and Node.JS",
     },
     {
       image: imageSource8,
       fullImage: fullImageSource8,
-      name: "Cat Personality Test",
+      name: "CAT PERSONALITY TEST",
       description:
-        "A website to match your personality to a cat breed that gets displayed as a GIF",
+        "Web app to match your personality to a cat breed from the Cat API that gets displayed as a GIF",
       websiteUrl: "https://fac18.github.io/week3-gmno-prrr-api/",
       githubUrl: "https://github.com/fac18/week3-gmno-prrr-api",
       stack: "HTML5, CSS3, and JavaScript",
@@ -78,9 +75,9 @@ const Grid = () => {
     {
       image: imageSource9,
       fullImage: fullImageSource9,
-      name: "Javascript CalcuRalewayr",
+      name: "JAVASCRIPT CALCULATOR",
       description:
-        "A calcuRalewayr that you can use with button clicks or with typing on the keyboard",
+        "Calculator that you can use with button clicks or with typing on the keyboard",
       websiteUrl: "https://reginaldjbeili.github.io/mycalcuRalewayr/",
       githubUrl: "https://github.com/ReginaldJbeili/mycalcuRalewayr",
       stack: "HTML5, CSS3, and JavaScript",
@@ -114,6 +111,7 @@ const Grid = () => {
           <div className="text-column">
             <P>{image.name}</P>
             <P>{image.description}</P>
+            <P>{image.stack}</P>
           </div>
         </div>
       ))}

@@ -3,9 +3,6 @@ import Developer from "../Developer/Developer";
 import Nurse from "../Nurse/Nurse";
 import Gamer from "../Gamer/Gamer";
 import Button from "../Styles/Button.style";
-import H2 from "../Styles/H2.style";
-import profilepic from "../../assets/images/profilepic.png";
-import P from "../Styles/P.style";
 
 import "./About.css";
 

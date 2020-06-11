@@ -28,6 +28,17 @@
   margin: 1rem 0 1rem 0;
   flex-direction: row;
 }
+
+.education-container p {
+  margin-block-start: 0rem;
+  margin-left: 1rem;
+}
+
+.work-container p {
+  margin-block-start: 0rem;
+  margin-left: 1rem;
+}
+
 .nurse-story img {
   height: 60px;
   width: 60px;
