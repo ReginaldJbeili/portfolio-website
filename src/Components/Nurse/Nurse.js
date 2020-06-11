@@ -58,8 +58,8 @@ const Nurse = () => {
         <H1A>Work Experience</H1A>
         {work.map((element) => {
           return (
-            <div className="work-container">
-              <img key={element.alt} src={element.image} alt={element.alt} />
+            <div className="work-container" key={element.alt}>
+              <img src={element.image} alt={element.alt} />
               <div>
                 <P>{element.title}</P>
                 <P>{element.description}</P>

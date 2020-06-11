@@ -4,12 +4,15 @@ import githubIcon from "../../assets/icons/jam_github-square.svg";
 import linkedInIcon from "../../assets/icons/jam_linkedin-square.svg";
 import twitterIcon from "../../assets/icons/jam_twitter-square.svg";
 import A2 from "../Styles/A2.style";
-
 import H2 from "../Styles/H2.style";
+import H1 from "../Styles/H1.style";
 
 const Contact = () => {
   return (
     <section id="contact" className="contact-section">
+      <div className="my-info">
+        <H1>CONTACT ME</H1>
+      </div>
       <div className="contact-info">
         <H2 className="mobile-number">+44(0)7477364540</H2>
         <A2 href="mailto: reginaldjbeili@gmail.com">
