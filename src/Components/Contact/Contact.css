@@ -19,7 +19,7 @@
   background: white;
   box-shadow: 4px 4px 12px 2px black;
   padding: 1rem;
-  transform: rotateZ(-30deg);
+  transform: rotateZ(-10deg);
   transition: 0.2s;
 }
 
