@@ -37,8 +37,6 @@
 
 @media only screen and (max-width: 768px) {
   .landing-page {
-    background-image: url(../../assets/images/landing.png);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: 77%;
     justify-content: start;
